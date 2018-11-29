@@ -1,0 +1,26 @@
+
+Treinar rede:  
+
+python retrain.py --how_many_training_steps 4000 --tfhub_module https://tfhub.dev/google/imagenet/resnet_v2_152/feature_vector/1 --image_dir C:\Users\tugzera\Documents\modelo_retrain\Peixe
+
+Testar rede:  
+ 
+python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\lambari.jpg
+
+
+carpa: python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\carpa.jpg
+
+lambari: python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\lambari.jpg
+
+12: python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\12.jpg
+
+pintado: python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\pintado.jpg
+
+piranha: python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\piranha.jpg
+
+cascudo: python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\cascudo.jpg
+
+pangaca: python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\pangaca.jpg
+
+pirara: python label_image.py --graph=C:\tmp\output_graph.pb --labels=C:\tmp\output_labels.txt --input_layer=Placeholder  --input_height=224 --input_width=224 --output_layer=final_result --image=C:\Users\tugzera\Documents\modelo_retrain\pirara.jpg 
+

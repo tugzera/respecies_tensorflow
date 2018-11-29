@@ -1,0 +1,166 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+15:30:28 -- https://tfhub.dev/google/imagenet/nasnet_large/feature_vector/1 -- 331x331
+
+carpa: especie 1 0.9844291 (OK)
+especie 5 0.008758888
+especie 4 0.002342029
+especie 2 0.0019542202
+especie 7 0.0012130638
+
+lambari: especie 5 0.6730107
+especie 4 0.121052995
+especie 3 0.09635023
+especie 1 0.05861874
+especie 6 0.03905617
+
+12: especie 5 0.78532726
+especie 4 0.087931424
+especie 3 0.077554636
+especie 1 0.020961659
+especie 6 0.015423006
+
+pintado: especie 2 0.5387934 (OK)
+especie 7 0.15736377
+especie 6 0.14607877
+especie 8 0.07770761
+especie 3 0.036811814
+
+piranha: especie 5 0.4818386
+especie 3 0.1623342
+especie 6 0.14799486
+especie 1 0.103144415
+especie 4 0.077740654
+
+especie 6 0.9129081
+especie 5 0.024739766
+especie 4 0.020063277
+especie 3 0.018109733
+especie 7 0.012818471
+
+pangaca: especie 5 0.3420048
+especie 3 0.22598006
+especie 4 0.22261326
+especie 8 0.13768344
+especie 6 0.05489175
+
+
+pirara: especie 7 0.5034516 (OK)
+especie 5 0.16339988
+especie 6 0.13127397
+especie 3 0.11206553
+especie 1 0.04279384
+
+15:55:19 -- END: INFO:tensorflow:Final test accuracy = 100.0% (N=40)
+		 INFO:tensorflow:Froze 1546 variables.
+		 INFO:tensorflow:Converted 1546 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ --  -- 299x299
+
+carpa: especie 1 
+
+lambari: 
+
+12: especie 
+
+pintado: 
+
+piranha: 
+
+pangaca: 
+
+
+pirara: 
+
+ -- END: 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12:55:34 -- how_many_training_steps 4000 --train_batch_size 10 --tfhub_module https://tfhub.dev/google/imagenet/inception_resnet_v2/classification/1 -- 299x299
+
+carpa: especie 1 0.99672604
+especie 7 0.0014005749
+especie 5 0.00095658354
+especie 6 0.0006426242
+especie 4 0.00015603621
+
+lambari: especie 3 0.42622
+especie 1 0.24429983
+especie 4 0.23970206
+especie 5 0.06543965
+especie 6 0.019308778
+
+12: especie 
+
+pintado: 
+
+piranha: 
+
+pangaca: 
+
+
+pirara: 
+
+INTERROMPIDO POR PIORAR OS RESULTADOS
+12:57:40 -- END: INFO:tensorflow:Final test accuracy = 95.0% (N=40)
+		 INFO:tensorflow:Froze 900 variables.
+		 INFO:tensorflow:Converted 900 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ -- python retrain.py --how_many_training_steps 2000 --train_batch_size 10 --random_crop 10 --tfhub_module https://tfhub.dev/google/imagenet/inception_resnet_v2/classification/1 --image_dir C:\Users\tugzera\Documents\modelo_retrain\Peixe -- 299x299
+
+carpa: especie 1 
+
+lambari: 
+
+12: especie 
+
+pintado: 
+
+piranha: 
+
+pangaca: 
+
+
+pirara: 
+
+ -- END: PIORA OS RESULTADOS TAMBÉM
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ --  -- 299x299
+
+carpa: especie 1 
+
+lambari: 
+
+12: especie 
+
+pintado: 
+
+piranha: 
+
+pangaca: 
+
+
+pirara: 
+
+ -- END: 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ --  -- 299x299
+
+carpa: especie 1 
+
+lambari: 
+
+12: especie 
+
+pintado: 
+
+piranha: 
+
+pangaca: 
+
+
+pirara: 
+
+ -- END: 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------

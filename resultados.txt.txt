@@ -1,0 +1,654 @@
+TESTES REALIZADOS COM 4K PASSOS
+----------------------------------------------------------------------------------------------------------------------------------------------------
+15:30:28 -- https://tfhub.dev/google/imagenet/nasnet_large/feature_vector/1 -- 331x331
+
+carpa: especie 1 0.9844291 (OK)
+especie 5 0.008758888
+especie 4 0.002342029
+especie 2 0.0019542202
+especie 7 0.0012130638
+
+lambari: especie 5 0.6730107
+especie 4 0.121052995
+especie 3 0.09635023
+especie 1 0.05861874
+especie 6 0.03905617
+
+12: especie 5 0.78532726
+especie 4 0.087931424
+especie 3 0.077554636
+especie 1 0.020961659
+especie 6 0.015423006
+
+pintado: especie 2 0.5387934 (OK)
+especie 7 0.15736377
+especie 6 0.14607877
+especie 8 0.07770761
+especie 3 0.036811814
+
+piranha: especie 5 0.4818386
+especie 3 0.1623342
+especie 6 0.14799486
+especie 1 0.103144415
+especie 4 0.077740654
+
+cascudo: especie 6 0.9076196 (OK)
+especie 5 0.028086176
+especie 4 0.022516128
+especie 3 0.017663674
+especie 7 0.013018141
+
+pangaca: especie 5 0.3420048
+especie 3 0.22598006
+especie 4 0.22261326
+especie 8 0.13768344
+especie 6 0.05489175
+
+
+pirara: especie 7 0.5034516 (OK)
+especie 5 0.16339988
+especie 6 0.13127397
+especie 3 0.11206553
+especie 1 0.04279384
+
+15:55:19 -- END: INFO:tensorflow:Final test accuracy = 100.0% (N=40)
+		 INFO:tensorflow:Froze 1546 variables.
+		 INFO:tensorflow:Converted 1546 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+22:50:46	-- https://tfhub.dev/google/imagenet/nasnet_mobile/feature_vector/1 -- 224x224 pixels. -- 3 ACERTOS
+
+carpa: especie 1 0,9835579 (OK)
+especie 7 0,00876203
+especie 4 0,0028927247
+especie 6 0,0023540002
+especie 3 0,0012995977
+
+lambari: especie 1 0,48415008
+especie 4 0,2922387
+especie 3 0,1661982
+especie 5 0,048206482
+especie 7 0,0047366526
+
+12: especie 4 0.40984863
+especie 5 0.19950415
+especie 3 0.19207978
+especie 1 0.09807813
+especie 6 0.044274922
+
+pintado: especie 6 0.68035823
+especie 2 0.15818733
+especie 5 0.07430354
+especie 7 0.0342337
+especie 8 0.030485068
+
+piranha: especie 4 0.3003426 (OK)
+especie 3 0.29689685
+especie 1 0.196516
+especie 5 0.16899835
+especie 7 0.01835386
+
+cascudo: especie 6 0.8591682 (OK)
+especie 5 0.08401434
+especie 1 0.025397833
+especie 4 0.011150445
+especie 2 0.0087746
+
+pangaca: 
+especie 3 0.70158786
+especie 8 0.12671612
+especie 2 0.070753716
+especie 6 0.040170237
+especie 5 0.038003948
+
+pirara: especie 3 0.6124117
+especie 2 0.12170928
+especie 5 0.09781831
+especie 7 0.067342415
+especie 6 0.062506564
+
+22:59:23	-- END: INFO:tensorflow:Final test accuracy = 95.0% (N=40)
+			INFO:tensorflow:Froze 1126 variables.
+			INFO:tensorflow:Converted 1126 variables to const ops.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+21:51:35      -- https://tfhub.dev/google/imagenet/pnasnet_large/feature_vector/1 -- 331x331 -- 5 ACERTOS
+
+carpa:especie 1 0.997006 (OK)
+especie 4 0.0015009575
+especie 7 0.0004939853
+especie 6 0.00048227227
+especie 8 0.00016492947
+
+lambari: especie 1 0.55114263
+especie 6 0.2152862
+especie 3 0.11626053
+especie 4 0.091069154
+especie 5 0.018426424
+
+12: especie 5 0.5040748
+especie 6 0.23315407
+especie 4 0.08346673
+especie 1 0.041856345
+especie 3 0.041701574
+
+pintado: especie 2 0.70679134 (OK)
+especie 6 0.123160005
+especie 5 0.09565858
+especie 7 0.022205275
+especie 8 0.020839792
+ 
+piranha: especie 4 0.25572014 (OK)
+especie 3 0.22734497
+especie 1 0.20901778
+especie 5 0.20509289
+especie 7 0.04946521
+
+cascudo: especie 6 0.9442017 (OK)
+especie 5 0.037177596
+especie 7 0.0067342566
+especie 4 0.0032627108
+especie 2 0.0027924296
+
+pangaca: especie 5 0.54329
+especie 4 0.36161223
+especie 7 0.059138335
+especie 3 0.014607167
+especie 1 0.009801171
+
+pirara: especie 7 0.5992906 (OK)
+especie 5 0.23841491
+especie 6 0.08623303
+especie 8 0.047202002
+especie 1 0.018331558
+		
+22:23:23 -- END: INFO:tensorflow:Final test accuracy = 76.2% (N=42)
+		 INFO:tensorflow:Froze 1179 variables.
+		 INFO:tensorflow:Converted 1179 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+23:48:30  -- https://tfhub.dev/google/imagenet/resnet_v2_152/classifaction/1 -- 224x224 -- 6 ACERTOS
+
+carpa: especie 1 0.9999558 (OK)
+especie 4 4.391071e-05
+especie 7 2.6701932e-07
+especie 3 6.4420185e-08
+especie 6 5.9935046e-10
+
+lambari: especie 3 0.7006135 (OK)
+especie 4 0.29495326
+especie 1 0.0040771244
+especie 5 0.000172058
+especie 7 0.00015523226
+
+12: especie 5 0.5315132
+especie 4 0.36317053
+especie 8 0.04384269
+especie 6 0.028759895
+especie 1 0.01327409
+
+pintado: especie 2 0.9939985 (OK)
+especie 5 0.003031683
+especie 8 0.0023986062
+especie 6 0.0004326617
+especie 7 0.00011228717
+ 
+piranha: especie 1 0.57408816
+especie 4 0.39379212
+especie 3 0.023035055
+especie 5 0.005018319
+especie 7 0.0037877264
+
+cascudo: especie 6 0.87259823 (OK)
+especie 5 0.11623425
+especie 4 0.010196546
+especie 2 0.0007390074
+especie 8 0.00010604241
+
+pangaca: especie 8 0.9627248 (OK)
+especie 4 0.019111589
+especie 5 0.012771228
+especie 3 0.0020133853
+especie 6 0.001637361
+
+pirara:	especie 7 0.7321592 (OK)
+especie 5 0.21025062
+especie 6 0.02024681
+especie 2 0.019317787
+especie 1 0.00901957	
+
+23:56:03 -- END: INFO:tensorflow:Final test accuracy = 95.0% (N=40)
+	 	 INFO:tensorflow:Froze 818 variables.
+	 	 INFO:tensorflow:Converted 818 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+23:16:13     -- https://tfhub.dev/google/imagenet/resnet_v1_152/feature_vector/1 -- 224x224 -- 4 ACERTOS
+
+carpa:	especie 1 0.9997905 (OK)
+especie 4 0.000115190676
+especie 7 8.3304025e-05
+especie 3 4.063832e-06
+especie 8 2.541161e-06  
+
+lambari: especie 3 0.8969962 (OK)
+especie 4 0.09153036
+especie 1 0.008392907
+especie 5 0.002222935
+especie 6 0.0005593201 
+
+12: especie 4 0.9522089
+especie 5 0.02216898
+especie 1 0.00835236
+especie 3 0.006353016
+especie 8 0.0050812955
+
+pintado: especie 7 0.29105055
+especie 2 0.28561878
+especie 8 0.23220287
+especie 5 0.092279814
+especie 6 0.060180373
+ 
+piranha: especie 1 0.7095579
+especie 3 0.27076304
+especie 4 0.018243194
+especie 7 0.00055012625
+especie 5 0.0003327699
+
+cascudo: especie 6 0.93338734 (OK)
+especie 4 0.05940312
+especie 2 0.005547679
+especie 3 0.001119589
+especie 5 0.00034552164
+
+pangaca: especie 4 0.7171958
+especie 8 0.16986886
+especie 5 0.09141418
+especie 6 0.005698516
+especie 7 0.005609246
+
+pirara:	especie 7 0.8562996 (OK)
+especie 5 0.121568985
+especie 2 0.015674239
+especie 6 0.00347212
+especie 1 0.002092547	
+
+23:29:14 -- END: INFO:tensorflow:Final test accuracy = 95.0% (N=40)
+	         INFO:tensorflow:Froze 777 variables.
+	         INFO:tensorflow:Converted 777 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+07:35:32  -- https://tfhub.dev/google/imagenet/inception_v1/feature_vector/1  -- 224X224 -- 5 ACERTOS
+
+carpa: especie 1 0.99479866 (OK)
+especie 7 0.0021052568
+especie 4 0.0017334024
+especie 6 0.0007836361
+especie 3 0.00051356026
+
+lambari: especie 3 0.5389634 (OK)
+especie 4 0.43096185
+especie 5 0.020235881
+especie 1 0.008290667
+especie 8 0.0006765139
+
+12: especie 4 0.7593269
+especie 5 0.14264892
+especie 8 0.036065597
+especie 3 0.027750786
+especie 6 0.017478293
+
+pintado: especie 2 0.64410925 (OK)
+especie 6 0.107688665
+especie 4 0.093732566
+especie 8 0.05102486
+especie 7 0.050011843
+ 
+piranha: especie 1 0.40784702 (OK)
+especie 4 0.34572607
+especie 3 0.15644616
+especie 5 0.058761492
+especie 6 0.011293757
+
+cascudo: especie 6 0.8787624 (OK)
+especie 2 0.04677489
+especie 5 0.033031195
+especie 7 0.017069504
+especie 3 0.016094664
+
+pangaca: especie 8 0.5245905 (OK)
+especie 4 0.3697888
+especie 3 0.054902513
+especie 6 0.021655837
+especie 5 0.018710796
+
+pirara:	especie 2 0.34672663
+especie 6 0.24323887
+especie 8 0.1802339
+especie 7 0.14015065
+especie 5 0.06480982
+
+07:43:02 -- END: INFO:tensorflow:Final test accuracy = 100.0% (N=40)
+		 INFO:tensorflow:Froze 230 variables.
+		 INFO:tensorflow:Converted 230 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+10:28:32 -- https://tfhub.dev/google/imagenet/inception_v2/feature_vector/1  -- 224X224 -- 3 ACERTOS
+
+carpa: especie 1 0.99037397 (OK)
+especie 4 0.00449293
+especie 3 0.0023934545
+especie 7 0.0015278796
+especie 5 0.00055773254
+
+lambari: especie 3 0.6518575 (OK)
+especie 4 0.32251728
+especie 1 0.016475298
+especie 5 0.0038071494
+especie 6 0.002075723
+
+12: especie 4 0.24945363
+especie 5 0.20937869
+especie 3 0.18975729
+especie 6 0.11960176
+especie 1 0.08971571
+
+pintado: especie 6 0.3498576
+especie 2 0.31931463
+especie 8 0.1688571
+especie 7 0.10414733
+especie 4 0.025462331
+ 
+piranha: especie 1 0.6107636
+especie 4 0.17680547
+especie 3 0.08110842
+especie 5 0.060451213
+especie 7 0.04992436
+
+cascudo: especie 6 0.9663341 (OK)
+especie 5 0.01924992
+especie 4 0.005093121
+especie 8 0.003791993
+especie 7 0.0032761318
+
+pangaca: especie 4 0.37982702
+especie 8 0.291444
+especie 3 0.09838196
+especie 6 0.09353187
+especie 5 0.047265872
+
+pirara:	especie 7 0.30862305
+especie 6 0.2935772
+especie 1 0.21537186
+especie 3 0.08061778
+especie 2 0.03676532	
+
+10:36:30-- END: INFO:tensorflow:Final test accuracy = 100.0% (N=40)
+		INFO:tensorflow:Froze 277 variables.
+		INFO:tensorflow:Converted 277 variables to const ops.	
+----------------------------------------------------------------------------------------------------------------------------------------------------
+10:51:39 -- https://tfhub.dev/google/imagenet/inception_v3/feature_vector/1  -- 299X299 -- 6 ACERTOS
+
+carpa: especie 1 0.9984067 (OK)
+especie 6 0.0013333026
+especie 4 0.00021413088
+especie 7 2.1851285e-05
+especie 3 1.3206337e-05
+
+lambari: especie 4 0.5679196
+especie 3 0.40791714
+especie 1 0.020056795
+especie 5 0.0028917503
+especie 7 0.00038465875
+
+12: especie 4 0.9333045
+especie 5 0.04826892
+especie 8 0.007623903
+especie 7 0.0037278652
+especie 6 0.0031977203
+
+pintado: especie 2 0.77564305 (OK)
+especie 6 0.07847499
+especie 4 0.06360963
+especie 1 0.0347456
+especie 8 0.02185786
+ 
+piranha: especie 3 0.33315685 
+especie 1 0.25166723
+especie 4 0.24763383
+especie 6 0.10149755
+especie 5 0.045010943
+
+cascudo: especie 6 0.6832523 (OK)
+especie 5 0.16808659
+especie 4 0.09912282
+especie 3 0.018868225
+especie 8 0.01166448
+
+pangaca: especie 8 0.71256155 (OK)
+especie 5 0.14359905
+especie 3 0.06450503
+especie 2 0.026735287
+especie 4 0.02565224
+
+pirara: especie 7 0.5167704 (OK)
+especie 6 0.28350094
+especie 5 0.086575545
+especie 1 0.071079835
+especie 2 0.028693186
+
+11:03:14 -- END: INFO:tensorflow:Final test accuracy = 100.0% (N=40)
+		 INFO:tensorflow:Froze 378 variables.
+		 INFO:tensorflow:Converted 378 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+11:20:36 -- https://tfhub.dev/google/imagenet/inception_resnet_v2/feature_vector/1  -- 224X224
+
+carpa: especie 1 0.9939482 (OK)
+especie 7 0.0023113182
+especie 6 0.001413338
+especie 5 0.0013569596
+especie 4 0.0007046464
+
+lambari: especie 1 0.30117294 
+especie 3 0.28086928
+especie 4 0.23957968
+especie 5 0.11317757
+especie 6 0.052734327
+
+12: especie 4 0.47818345
+especie 5 0.29948694
+especie 3 0.12772848
+especie 6 0.061172634
+especie 8 0.01509958
+
+pintado: especie 2 0.80375344 (OK)
+especie 7 0.108516224
+especie 6 0.04036861
+especie 8 0.020985348
+especie 5 0.012840089
+ 
+piranha: especie 4 0.4790957 (OK)
+especie 6 0.14286713
+especie 5 0.11820249
+especie 1 0.111365266
+especie 3 0.0755148
+
+cascudo: especie 6 0.9658076 (OK)
+especie 5 0.015204768
+especie 4 0.010115078
+especie 3 0.005019523
+especie 7 0.0019708092
+
+pangaca: especie 4 0.5684927
+especie 5 0.2271555
+especie 8 0.16070762
+especie 6 0.014867976
+especie 3 0.013433939 
+
+pirara:	especie 7 0.68898076 (OK)
+especie 6 0.2399503
+especie 3 0.028518468
+especie 5 0.026253147
+especie 1 0.011237331	
+
+11:30:44 -- END: INFO:tensorflow:Final test accuracy = 95.0% (N=40)
+		 INFO:tensorflow:Froze 898 variables.
+	 	 INFO:tensorflow:Converted 898 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+12:36:06 -- https://tfhub.dev/google/imagenet/mobilenet_v1_100_224/classification/1  -- 224X224
+
+carpa: especie 1 0.99773586 (OK)
+especie 4 0.0018961272
+especie 7 0.00036274447
+especie 5 3.3383822e-06
+especie 3 1.017421e-06
+
+lambari: especie 4 0.99760926
+especie 3 0.0022613693
+especie 1 0.00012609325
+especie 5 1.4791295e-06
+especie 6 1.227478e-06
+
+12: especie 4 0.99373287
+especie 6 0.0031915978
+especie 1 0.0023102358
+especie 2 0.0004329468
+especie 5 0.000160764
+
+pintado: especie 6 0.5616111
+especie 2 0.4074409
+especie 4 0.029485125
+especie 1 0.00115414
+especie 7 0.0002619784
+ 
+piranha: especie 4 0.5172319
+especie 5 0.45252365
+especie 3 0.022590809
+especie 1 0.0041837245
+especie 2 0.0028738815
+
+cascudo: especie 6 0.9940044 (OK)
+especie 3 0.0018110521
+especie 4 0.0016113684
+especie 7 0.0012247124
+especie 5 0.0010830057
+
+pangaca: especie 4 0.46065223
+especie 8 0.24384736
+especie 2 0.13828237
+especie 3 0.117349446
+especie 5 0.0331518
+
+pirara:	especie 7 0.69465744 (OK)
+especie 2 0.18188615
+especie 5 0.11170372
+especie 6 0.0072910185
+especie 1 0.003316747	
+
+12:43:25 -- END: INFO:tensorflow:Final test accuracy = 100.0% (N=40)
+		 INFO:tensorflow:Froze 139 variables.
+		 INFO:tensorflow:Converted 139 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+15:02:48 -- https://tfhub.dev/google/imagenet/mobilenet_v2_140_224/classification/1  -- 224X224
+
+carpa: especie 1 0.99675447 (OK)
+especie 7 0.0011761589
+especie 8 0.0008819712
+especie 4 0.00063924305
+especie 5 0.00016089385
+
+lambari: especie 3 0.96734804 (OK)
+especie 4 0.01893657
+especie 1 0.011525669
+especie 8 0.0013106765
+especie 5 0.00037292574
+
+12: especie 4 0.70141035
+especie 8 0.09456121
+especie 3 0.08812017
+especie 5 0.079087965
+especie 7 0.0172353
+
+pintado: especie 2 0.39091423 (OK)
+especie 4 0.340767
+especie 6 0.1551958
+especie 8 0.054491833
+especie 3 0.029161597
+ 
+piranha: especie 3 0.45283872 (OK)
+especie 1 0.22175719
+especie 4 0.22109745
+especie 5 0.05505621
+especie 8 0.024769409
+
+cascudo: especie 6 0.47282806 (OK)
+especie 3 0.32512894
+especie 4 0.17293331
+especie 8 0.012289874
+especie 5 0.009153735
+
+pangaca: especie 8 0.5615028 (OK)
+especie 4 0.39875412
+especie 3 0.022494424
+especie 5 0.012653715
+especie 1 0.0015707484
+
+pirara:	especie 7 0.92165387 (OK)
+especie 8 0.032873083
+especie 2 0.018218309
+especie 5 0.016409446
+especie 3 0.0064504314	
+
+15:12:34 -- END: INFO:tensorflow:Final test accuracy = 100.0% (N=40)
+		 INFO:tensorflow:Froze 264 variables.
+		 INFO:tensorflow:Converted 264 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
+11:34:56 -- https://tfhub.dev/google/imagenet/resnet_v2_152/feature_vector/1  -- 224X224
+
+carpa: especie 1 0.99999464
+especie 4 4.923483e-06
+especie 3 2.2640354e-07
+especie 7 2.2300658e-07
+especie 6 5.743544e-10
+
+lambari: especie 3 0.7330177
+especie 4 0.25699642
+especie 1 0.009164163
+especie 7 0.0005159905
+especie 5 0.0002540689
+
+12: especie 5 0.47229037
+especie 4 0.4231553
+especie 1 0.039465014
+especie 8 0.029961802
+especie 3 0.015474063
+
+pintado: especie 2 0.9753772
+especie 5 0.014738841
+especie 6 0.005354963
+especie 8 0.0025900598
+especie 7 0.001302977
+ 
+piranha: especie 1 0.57117766
+especie 4 0.41795206
+especie 3 0.0072688214
+especie 7 0.0027203416
+especie 5 0.000728216
+
+cascudo: especie 6 0.9290689
+especie 5 0.05687732
+especie 4 0.009940078
+especie 2 0.0036279608
+especie 3 0.0002745127
+
+pangaca: especie 8 0.97332585
+especie 5 0.011208693
+especie 4 0.008566771
+especie 3 0.0038597276
+especie 6 0.002023686
+
+pirara:	especie 7 0.8918858
+especie 1 0.033017736
+especie 2 0.025941923
+especie 5 0.020766517
+especie 6 0.01606639
+
+11:47:27 -- END: INFO:tensorflow:Final test accuracy = 95.0% (N=40)
+		 INFO:tensorflow:Froze 816 variables.
+		 INFO:tensorflow:Converted 816 variables to const ops.
+----------------------------------------------------------------------------------------------------------------------------------------------------
